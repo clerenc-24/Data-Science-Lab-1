@@ -15,7 +15,7 @@ model.
 |-----|-------|------|
 | —   | **Baseline LSTM** (`models/baseline_lstm.py`) | Reference recurrent model (LSTM/GRU/RNN selectable) |
 | C1  | **CNN-LSTM-Attention** (`models/cnn_lstm_attention.py`) | Conv front-end + LSTM + temporal attention |
-| C2  | **DALG** (`models/dalg.py`) | **Dual-Attention LSTM-GRU** — the refined contribution |
+| C2  | **DALG** (`models/dalg.py`) | **Dual-Attention LSTM-GRU** - the refined contribution |
 
 ---
 
