@@ -6,7 +6,6 @@ Central configuration for the Forex ML project.
 All hyperparameters, data settings, and evaluation options live here so that
 experiments are reproducible and easy to sweep. Import `CFG` everywhere.
 
-Author: Clerence Mashile — MSc Computer Science (Data Science), ELTE Budapest
 """
 
 from dataclasses import dataclass, field
@@ -16,11 +15,11 @@ from typing import List
 @dataclass
 class DataConfig:
     # Instrument / data source -------------------------------------------------
-    ticker: str = "EURUSD=X"          # yfinance symbol for EUR/USD spot
+    ticker: str = "EURUSD=X" 
     start: str = "2014-01-01"
     end: str = "2024-12-31"
     interval: str = "1d"
-    use_synthetic: bool = True         # yfinance is often blocked offline; fall back to GBM
+    use_synthetic: bool = True         
     synthetic_n: int = 2600            # ~10 trading years of daily bars
 
     # Feature engineering ------------------------------------------------------
@@ -48,7 +47,7 @@ class TrainConfig:
     scheduler_factor: float = 0.5
     early_stop_patience: int = 10
     seed: int = 42
-    device: str = "cpu"               # auto-upgraded to "cuda" in train.py if available
+    device: str = "cpu" 
 
 
 @dataclass
