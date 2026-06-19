@@ -1,4 +1,4 @@
-# Forex ML — Baseline vs Challengers (EUR/USD)
+# Machine Learning in Forex Prediction - Baseline vs Challengers (EUR/USD)
 
 Machine-learning models for next-step EUR/USD return forecasting, built for the
 **Data Science Lab 1 ** project at **ELTE Budapest**.
