@@ -12,7 +12,6 @@ Usage
 Features: Adam + weight decay, gradient clipping, ReduceLROnPlateau, early
 stopping on validation loss, and best-checkpoint saving to results/.
 
-Author: Clerence Mashile — ELTE Budapest
 """
 
 import argparse
