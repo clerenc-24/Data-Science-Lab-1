@@ -1,7 +1,7 @@
 # Machine Learning in Forex Prediction - Baseline vs Challengers (EUR/USD)
 
 Machine-learning models for next-step EUR/USD return forecasting, built for the
-**Data Science Lab 1 ** project at **ELTE Budapest**.
+**Data Science Lab 1**.
 
 > *How can hybrid mathematical–ML models best predict EUR/USD movements, and how
 > do explainability tools affect model trustworthiness for real-world
