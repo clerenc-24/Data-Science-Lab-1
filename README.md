@@ -1,7 +1,7 @@
 # Forex ML — Baseline vs Challengers (EUR/USD)
 
 Machine-learning models for next-step EUR/USD return forecasting, built for the
-**Data Science Lab 1 / MSc thesis** project at **ELTE Budapest**.
+**Data Science Lab 1 ** project at **ELTE Budapest**.
 
 > *How can hybrid mathematical–ML models best predict EUR/USD movements, and how
 > do explainability tools affect model trustworthiness for real-world
@@ -120,5 +120,3 @@ swapping in real data and richer features (GARCH volatility, sentiment) is a
 configuration change, not a rewrite. Planned extensions: GARCH-augmented DALG,
 multi-regime evaluation (pre/COVID/post), and SHAP cross-validation of the
 attention maps.
-
-**Author:** Clerence Mashile — MSc Computer Science (Data Science), ELTE Budapest.
