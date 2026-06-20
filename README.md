@@ -114,7 +114,7 @@ forex_ml_repo/
 ## Notes & limitations
 
 The default experiment runs on **synthetic, near-random-walk data**, so absolute
-performance is intentionally modest — no model produces a profitable strategy on
+performance is intentionally modest - no model produces a profitable strategy on
 a random walk, which is the correct outcome. The repository is designed so that
 swapping in real data and richer features (GARCH volatility, sentiment) is a
 configuration change, not a rewrite. Planned extensions: GARCH-augmented DALG,
