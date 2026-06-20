@@ -1,0 +1,7 @@
+# This directory holds generated artifacts:
+#   metrics.json              — test metrics for all models
+#   comparison.png            — 4-panel baseline-vs-challengers figure
+#   dalg_explainability.png   — DALG feature/temporal attention maps
+#   *.pt                      — best-checkpoint weights per model
+#
+# Re-create everything with:  python run_all.py  &&  python explain.py
